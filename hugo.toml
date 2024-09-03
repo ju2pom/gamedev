@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ju2pom"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
+
+[params]
+  goToTop = true
